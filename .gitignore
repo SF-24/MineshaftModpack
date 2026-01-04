@@ -1,0 +1,77 @@
+# Userdata
+saves/*
+screenshots/*
+skin_overrides/*
+emi.json
+options.txt
+
+# Cache and loader
+.fabric/*
+cape_overrides/*
+crash-reports/*
+data/*
+local/*
+logs/*
+rhino.local.properties
+export.log
+usercache.json
+
+# Recorder
+crash-reports/*
+ffmpeg.exe.lnk
+ffmpeg/*
+replay_recordings/*
+replay_videos/*
+
+# Code editor
+.vscode/*
+
+# Old development stuff
+_unused/*
+
+# Old releases
+backup1.zip
+release_1.zip
+
+# Unused testing mods
+mods/_u
+
+# Default configs
+config/corgilib/*
+config/fabric/*
+config/jade/usernamecache.json
+config/jade/hide-blocks.json
+config/jade/hide-entities.json
+config/jade/sort-order.json
+config/NoChatReports/*
+config/nostalgic_tweaks/backup/*
+config/polymer/*
+config/c2me.toml
+config/cardinal-components-api.properties
+config/collective.json5
+config/debugify.json
+config/debugify-descriptions.json
+config/defaultoptions/*
+config/clean_tooltips-client.toml
+config/entity_model_features.json
+config/entity_texture_features.json
+config/etf_warnings.json
+config/forgeconfigapiport.toml
+config/guicompass.json5
+config/immediatelyfast.json
+config/indium-renderer.properties
+config/lavender_client_storage.json
+config/midnightlib.json
+config/modmenu.json
+config/moonlight-client.json
+config/moonlight-common.json
+config/necronomicon.json5
+config/pal.properties
+config/replaymod.json
+config/replaymod-rendersettings.json
+config/skeletonaifix-server.toml
+config/sodium-fingerprint.json
+config/sodium-mixins.properties
+config/sodium-options.json
+config/yacl.json5
+

@@ -1,0 +1,125 @@
+{
+  "moderner_beta:sea_level": 63,
+  "moderner_beta:provider": "moderner_beta:noise_3d",
+  "moderner_beta:perlin_noise_settings": {
+    "alpha2DSampling": false,
+    "infdevNoiseScaling": false,
+    "failurePoint": 2147483647,
+    "wrapped": true,
+    "randomNoiseOffsets": true
+  },
+  "moderner_beta:cave_generation": {
+    "forceBetaCaves": true,
+    "forceBetaCanyons": true,
+    "seedMethod": "early_release",
+    "useCarvers": true,
+    "useNoiseCaves": false,
+    "fixCaveBorders": true
+  },
+  "moderner_beta:isles_properties": {
+    "centerOceanFalloffDistance": 16,
+    "outerIslandNoiseScale": 300.0,
+    "outerIslandNoiseOffset": 0.375,
+    "centerIslandFalloffDistance": 8,
+    "centerOceanRadius": 64,
+    "oceanSlideTarget": -200.0,
+    "centerIslandShape": "circle",
+    "centerIslandRadius": 48,
+    "useIslands": true,
+    "useOuterIslands": true
+  },
+  "moderner_beta:deepslate_generation": {
+    "enabled": false,
+    "minY": 0,
+    "maxY": 8,
+    "block": "minecraft:deepslate"
+  },
+  "moderner_beta:noise_slide": {
+    "bottomTarget": 15,
+    "bottomSize": 3,
+    "bottomOffset": 0,
+    "topTarget": -10,
+    "topSize": 3,
+    "topOffset": 0
+  },
+  "moderner_beta:use_surface_rules": false,
+  "moderner_beta:forced_biome_height": {
+    "scaleWeight": 1.7,
+    "scaleOffset": 0.6,
+    "modifyOnlyPositiveDepth": true,
+    "enabled": true,
+    "heightOverrides": {},
+    "depthWeight": 1.0,
+    "depthOffset": 0.2
+  },
+  "moderner_beta:surface_properties": {
+    "generateSandstone": true,
+    "erosion": true,
+    "gravelOceanBed": false,
+    "gravelBeachScale": 0.03125,
+    "surfaceNoiseScale": 0.0625,
+    "generateBeaches": true,
+    "flipNoiseCoordinates": false,
+    "enableBeaches": true,
+    "sandBeachScale": 0.03125,
+    "generateLiquids": true,
+    "generateBedrock": true,
+    "bedrockHoles": false
+  },
+  "moderner_beta:noise_3d_settings": {
+    "arraySurfaceNoise": true,
+    "simplexSurfaceNoise": false,
+    "pocketEditionRng": false,
+    "monoliths": false,
+    "oldInfdevTerrainNoise": false,
+    "climateHeightScaling": false
+  },
+  "moderner_beta:noise_generator_settings": "moderner_beta:overworld_128",
+  "moderner_beta:noise_landmass": {
+    "depth": {
+      "minValue": -0.35714287,
+      "maxValue": 0.125,
+      "negativeFlattening": false,
+      "offset": -2.0,
+      "positiveDampening": 8.0,
+      "negativeDampening": 5.6,
+      "influence": 0.2,
+      "negativeInfluence": 0.3,
+      "stretch": 3.0,
+      "enabled": true,
+      "sample": true
+    },
+    "scale": {
+      "variation": 1.121,
+      "influence": 0.0,
+      "offset": 0.0,
+      "enabled": true,
+      "sample": false
+    },
+    "alphaSampling": false
+  },
+  "moderner_beta:noise_settings": {
+    "min_y": 0,
+    "height": 192,
+    "size_horizontal": 1,
+    "size_vertical": 2
+  },
+  "moderner_beta:noise_scale": {
+    "limitBlending": 10.0,
+    "useFixedOffset": false,
+    "fixedOffset": 1.0,
+    "forestNoiseOctaves": 8,
+    "mainNoiseZ": 80.0,
+    "baseSize": 8.5,
+    "stretchY": 12.0,
+    "densityUnderdamp": 4.0,
+    "depthNoiseX": 200.0,
+    "depthNoiseZ": 200.0,
+    "mainNoiseX": 80.0,
+    "mainNoiseY": 160.0,
+    "coordinate": 684.412,
+    "height": 684.412,
+    "upperLimit": 512.0,
+    "lowerLimit": 512.0
+  }
+}

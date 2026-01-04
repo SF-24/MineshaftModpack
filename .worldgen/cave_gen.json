@@ -1,0 +1,83 @@
+{
+  "moderner_beta:cave_biome_voronoi": {
+    "depthMinY": -64,
+    "depthMaxY": 64,
+    "points": [
+      {
+        "biome": "",
+        "temp": 0.0,
+        "rain": 0.5,
+        "depth": 0.75
+      },
+      {
+        "biome": "minecraft:lush_caves",
+        "temp": 0.1,
+        "rain": 0.5,
+        "depth": 0.75
+      },
+      {
+        "biome": "",
+        "temp": 0.5,
+        "rain": 0.5,
+        "depth": 0.75
+      },
+      {
+        "biome": "",
+        "temp": 0.9,
+        "rain": 0.5,
+        "depth": 0.75
+      },
+      {
+        "biome": "",
+        "temp": 1.0,
+        "rain": 0.5,
+        "depth": 0.75
+      },
+      {
+        "biome": "",
+        "temp": 0.0,
+        "rain": 0.5,
+        "depth": 0.25
+      },
+      {
+        "biome": "minecraft:lush_caves",
+        "temp": 0.2,
+        "rain": 0.5,
+        "depth": 0.25
+      },
+      {
+        "biome": "",
+        "temp": 0.4,
+        "rain": 0.5,
+        "depth": 0.25
+      },
+      {
+        "biome": "",
+        "temp": 0.5,
+        "rain": 0.5,
+        "depth": 0.25
+      },
+      {
+        "biome": "",
+        "temp": 0.6,
+        "rain": 0.5,
+        "depth": 0.25
+      },
+      {
+        "biome": "",
+        "temp": 0.8,
+        "rain": 0.5,
+        "depth": 0.25
+      },
+      {
+        "biome": "",
+        "temp": 1.0,
+        "rain": 0.5,
+        "depth": 0.25
+      }
+    ],
+    "horizontalScale": 32.0,
+    "verticalScale": 16.0
+  },
+  "moderner_beta:provider": "moderner_beta:voronoi"
+}
