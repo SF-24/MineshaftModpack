@@ -1,0 +1,16 @@
+filename = 'skeletonaimingfix-2.0.0+1.20.1-fabric.jar'
+name = 'Skeleton Aiming Fix'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '39c42e554bd8291023f13a7f33d32d1b54272afa56ead86efba288dfe8ca3e931606ec93afa418c3aab5a0d8e2554e46056fc2a4945d824ae2db131eceb3ada1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/afi6lIuM/versions/97f26q7g/skeletonaimingfix-2.0.0%2B1.20.1-fabric.jar'
+
+[update.modrinth]
+mod-id = 'afi6lIuM'
+version = '97f26q7g'

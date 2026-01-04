@@ -1,0 +1,16 @@
+filename = 'Villainous Horde Manager-fabric-1.20.1-0.6.1.1.jar'
+name = 'Villainous Horde Manager'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7070faa48ec2e499206b52348eec36786990b293ab40c97b34b105d789e76eac83318a74d9d2d2352b89f36a4e06b81d1c6bb269f5db900bab615489e02bbb4d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pXwCfB4o/versions/GXbW6gwC/Villainous Horde Manager-fabric-1.20.1-0.6.1.1.jar'
+
+[update.modrinth]
+mod-id = 'pXwCfB4o'
+version = 'GXbW6gwC'

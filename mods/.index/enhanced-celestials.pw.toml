@@ -1,0 +1,16 @@
+filename = 'Enhanced-Celestials-fabric-1.20.1-5.0.3.1.jar'
+name = 'Enhanced Celestials'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ef9de3188ea16c1053361e392affcb1aa39ce451b6b53dc912d6f77d70ab162086c63705165fd7e22ad89d592ba872c33c3d875f33e38c46369078ad3fe414a1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/2rL16t1O/versions/bGoMMYXA/Enhanced-Celestials-fabric-1.20.1-5.0.3.1.jar'
+
+[update.modrinth]
+mod-id = '2rL16t1O'
+version = 'bGoMMYXA'

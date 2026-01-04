@@ -1,0 +1,16 @@
+filename = 'giantspawn-1.20.1-5.3.jar'
+name = 'Giant Spawn'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5715a6406be253d9102edc838f826e48eed70ea3d875951f39e1faab244fc6333eac18cab0934cb270d4fe59f73f23d9a0e19f68da81fa0678604346b5960d29'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iWwn7s9U/versions/7QESwGii/giantspawn-1.20.1-5.3.jar'
+
+[update.modrinth]
+mod-id = 'iWwn7s9U'
+version = '7QESwGii'

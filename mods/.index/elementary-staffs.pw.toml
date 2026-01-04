@@ -1,0 +1,16 @@
+filename = 'elementary-staffs-2.0.0.jar'
+name = 'Kroko’s Elementary Staffs'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f0e62c37ee90e2be8da1bec864818603a6ea8e67222d08b3760db59f1e624869fa64a0eb448fe9462f360ed8c31eebba3762890f7aa5a8907aac20220a828c7d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wjzB4GH8/versions/b2WpHmQe/elementary-staffs-2.0.0.jar'
+
+[update.modrinth]
+mod-id = 'wjzB4GH8'
+version = 'b2WpHmQe'
