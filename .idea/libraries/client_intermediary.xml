@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="client-intermediary">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.fabric/remappedJars/minecraft-1.20.1-0.18.1/client-intermediary.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

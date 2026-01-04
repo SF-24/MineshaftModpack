@@ -36,6 +36,7 @@ release_1.zip
 # Unused testing mods
 mods/_u
 mods/probejs-6.0.0-fabric.jar
+mods/fabric-chunkpregen-0.3.7.jar
 
 # Default configs
 kubejs/config/*

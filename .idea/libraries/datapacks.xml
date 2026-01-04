@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="datapacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/config/paxi/datapacks/nerfed-fortune-on-diamond-1-19.zip!/" />
+      <root url="jar://$PROJECT_DIR$/config/paxi/datapacks/noRawOre1.20.3-4.zip!/" />
+      <root url="jar://$PROJECT_DIR$/config/paxi/datapacks/disable-advancements-v1.0.zip!/" />
+      <root url="jar://$PROJECT_DIR$/config/paxi/datapacks/legacy-pyramids.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

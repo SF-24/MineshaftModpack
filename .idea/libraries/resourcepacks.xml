@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="resourcepacks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/config/paxi/resourcepacks/VanillaTweaks_r311006_MC1.20.x.zip!/" />
+      <root url="jar://$PROJECT_DIR$/config/paxi/resourcepacks/restored-brightness-sodium-0.6.zip!/" />
+      <root url="jar://$PROJECT_DIR$/config/paxi/resourcepacks/golden-days-base-1.21.x-1.11.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="_unused">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/_unused/Cascades-v1.0.3-1.20.x.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_unused/Minecraft Classic Edition.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_unused/Mod Support.zip!/" />
+      <root url="jar://$PROJECT_DIR$/_unused/unoriginal.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
