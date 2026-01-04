@@ -38,6 +38,7 @@ mods/_u
 mods/probejs-6.0.0-fabric.jar
 
 # Default configs
+kubejs/config/*
 config/corgilib/*
 config/fabric/*
 config/jade/usernamecache.json
