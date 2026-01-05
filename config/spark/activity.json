@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "XpKitty",
+      "uniqueId": "7e8a85ee-3bb0-4158-a107-5a6886ffe438"
+    },
+    "time": 1767650202189,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pUzw2u0gb7"
+    }
+  }
+]
