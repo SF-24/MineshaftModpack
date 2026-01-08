@@ -26,3 +26,13 @@ ItemEvents.modification(event => {
     item.setMaxDamage(staffDurability)
   })
 })
+
+// Stackable potions
+ItemEvents.modification(event => {
+    //Modify any item here
+    event.modify("minecraft:potion", item => {
+      item.setMaxStackSize(4)
+      item.setFoodProperties({nutrition: 0, saturation: 0, fastFood: true})  
+    })
+    event.modify("minecraft:splash_potion", item => {item.setMaxStackSize(4)})
+})
