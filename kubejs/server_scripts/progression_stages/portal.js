@@ -2,6 +2,8 @@
 
 const portalItems = new Set([ "minecraft:flint_and_steel", "kubejs:fire_drill", "minecraft:fire_charge" ])
 
+
+
 BlockEvents.rightClicked("minecraft:obsidian", event=>{
     Utils.getServer().tell(event.getItem().getId())
 
