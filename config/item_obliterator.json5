@@ -600,8 +600,45 @@
     "supplementaries:key",
     "!supplementaries:netherite_.*",
     "supplementaries:wind_vane",
-    "supplementaries:goblet"
+    "supplementaries:goblet",
 
+    // Create tools
+    "create:wrench",
+    "create:netherite_backtank",
+    "create:netherite_diving_boots",
+    "create:netherite_backtank_placeable",
+    "create:netherite_diving_helmet",
+    "create:linked_controller",
+    "create:potato_cannon",
+
+    // Create items
+    "create:andesite_alloy",
+    
+    // Create contraptions
+    "create:cuckoo_clock",
+
+    // Pipe related
+    "create:fluid_pipe",
+    "create:mechanical_pump",
+    "create:fluid_tank",
+    "create:fluid_valve",
+    "create:smart_fluid_pipe",
+    "create:portable_fluid_interface",
+    "create:creative_fluid_tank",
+
+    // Create metal stuff
+    "create:andesite_scaffolding",
+    "create:brass_scaffolding",
+    "create:copper_scaffolding",
+    "create:brass_door",
+    "create:train_door",
+    "create:copper_door",
+    "create:andesite_door",
+    "create:train_trapdoor",
+    "!create:tiled_glass.*",
+
+    // Create palletes
+    "!create:veridium_.*",
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

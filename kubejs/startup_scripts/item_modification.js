@@ -29,10 +29,11 @@ ItemEvents.modification(event => {
 
 // Stackable potions
 ItemEvents.modification(event => {
-    //Modify any item here
     event.modify("minecraft:potion", item => {
       item.setMaxStackSize(4)
-      item.setFoodProperties({nutrition: 0, saturation: 0, fastFood: true})  
+      item.foodProperties = food => {
+        food.fastToEat()
+      }  
     })
     event.modify("minecraft:splash_potion", item => {item.setMaxStackSize(4)})
 })

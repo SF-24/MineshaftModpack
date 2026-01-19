@@ -189,7 +189,17 @@ to make editing this file much easier.
 		// 1_19
 		// Ancient city
 		"minecraft:frogspawn": "minecraft:air",
-		"minecraft:reinforced_deepslate": "minecraft:chiseled_stone_bricks"
+		"minecraft:reinforced_deepslate": "minecraft:chiseled_stone_bricks",
+
+		// Create
+		"create:zinc_ore": "minecraft:stone",
+		"create:crimsite": "minecraft:stone",
+		"create:veridium": "minecraft:stone",
+		"create:scoria": "minecraft:stone",
+		"create:scorchia": "minecraft:stone",
+		"create:ochrum": "minecraft:stone",
+		"create:asurine": "minecraft:stone",
+		"create:limestone": "minecraft:stone"
 	}
 }
 
