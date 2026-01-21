@@ -18,6 +18,7 @@ logs/*
 rhino.local.properties
 export.log
 usercache.json
+usernamecache.json
 
 # Recorder
 crash-reports/*
