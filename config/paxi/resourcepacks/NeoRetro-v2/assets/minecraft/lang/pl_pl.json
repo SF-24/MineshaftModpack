@@ -9,6 +9,7 @@
 	"subtitles.entity.zombified_piglin.hurt": "Zombie pigman boli",
 
   "block.minecraft.deepslate_coal_ore": "Ruda węgla",
+  "block.minecraft.deepslate_copper_ore": "Ruda miedzi",
 	"block.minecraft.deepslate_diamond_ore": "Ruda diamentu",
 	"block.minecraft.deepslate_emerald_ore": "Ruda szmaragdu",
 	"block.minecraft.deepslate_gold_ore": "Ruda złota",
@@ -17,6 +18,7 @@
 	"block.minecraft.deepslate_redstone_ore": "Ruda czerwonego kamienia",
 
   "block.minecraft.coal_ore": "Ruda węgla",
+  "block.minecraft.copper_ore": "Ruda miedzi",
 	"block.minecraft.diamond_ore": "Ruda diamentu",
 	"block.minecraft.emerald_ore": "Ruda szmaragdu",
 	"block.minecraft.gold_ore": "Ruda złota",

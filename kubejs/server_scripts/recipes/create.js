@@ -6,7 +6,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: "create:cogwheel" }),
     event.remove({ output: "create:large_cogwheel" })
 
-    event.shaped(Item.of("create:cogwheel"),
+    event.shaped(Item.of("create:cogwheel",4),
         [' X ',
          'XSX',
          ' X '
@@ -25,18 +25,17 @@ ServerEvents.recipes(event => {
         {
             X: "#minecraft:planks",
             T: "minecraft:stick",
-            S: "create:shaft"
+            S: "minecraft:iron_ingot"
         }
     )
 
-    event.shaped(Item.of("create:shaft",8),
+    event.shaped(Item.of("create:andesite_encased_shaft",8),
         [
-            'I',
-            'I',
-            'I'
+            'PIP'
         ],
         {
-            I: "minecraft:iron_ingot"
+            I: "minecraft:iron_ingot",
+            P: "#minecraft:planks"
         }
     )
 })

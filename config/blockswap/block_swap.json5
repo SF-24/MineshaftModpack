@@ -169,7 +169,7 @@ to make editing this file much easier.
 		"minecraft:budding_amethyst": "minecraft:stone",
 		"minecraft:amethyst_block": "minecraft:stone",
 		
-		"minecraft:copper_ore": "minecraft:stone",
+//		"minecraft:copper_ore": "minecraft:stone",
 
 		// Deepslate ores
 		"minecraft:deepslate_coal_ore": "minecraft:coal_ore",

@@ -1,0 +1,12 @@
+{
+  "item.create.sturdy_sheet": "Obisdian Sheet",
+  "item.create.crushed_raw_copper": "Crushed Copper Ore",
+  "item.create.crushed_raw_gold": "Crushed Gold Ore",
+  "item.create.crushed_raw_iron": "Crushed Iron Ore",
+  "block.create.cogwheel": "Gear",
+  "block.create.large_cogwheel": "Large Gear",
+  "block.create.andesite_encased_shaft": "Shaft",
+  "block.create.oak_window_pane": "Wooden Window Pane",
+  "block.create.oak_window": "Wooden Window",
+  "block.create.clutch": "Redstone Clutch"
+}
