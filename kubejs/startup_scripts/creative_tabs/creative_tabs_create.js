@@ -20,14 +20,21 @@ StartupEvents.modifyCreativeTab("create:palettes", event => {
 // Create
 StartupEvents.modifyCreativeTab("create:base", event => {
     event.remove([
+        // Redstone
         "create:pulse_extender",
         "create:pulse_repeater",
         "create:powered_latch",
         "create:powered_toggle_latch",
         "create:analog_lever",
-        "create:goggles",
+
+        "create:chute",
 
         "create:controller_rail",
+
+        // Tools
+        "create:goggles",
+
+        // Other
         "create:creative_motor",
         "create:creative_crate",
         "create:creative_fluid_tank",
@@ -55,10 +62,12 @@ StartupEvents.modifyCreativeTab("create:base", event => {
         "create:gearbox",
         "create:vertical_gearbox",
         "create:clutch",
+        "create:radial_chassis",
 
         // Power sources
         "create:large_water_wheel",
         "create:windmill_bearing",
+        "create:hand_crank",
 
         // Power uses
         "create:encased_fan",
@@ -76,22 +85,25 @@ StartupEvents.modifyCreativeTab("a_tab:rotary_power", event => {
     
     event.add([
         // Basics
-        "create:andesite_encased_shaft",
+        "create:andesite_encased_shaft", // Actually a normal shaft in this modpack
         "create:cogwheel",
         "create:large_cogwheel",
         "create:gearbox",
         "create:vertical_gearbox",
         "create:clutch",
+        "create:radial_chassis",
 
         // Power sources
+        "create:hand_crank",
         "create:large_water_wheel",
-        "create:windmill_bearing",
+        "create:windmill_bearing", // ????
 
         // Power uses
         "create:encased_fan",
         "create:millstone",
+        "create:mechanical_press",
 
-        // Copper
+        // Copper / Fluid. Consider crafting methods.
         "create:fluid_pipe",
         "create:mechanical_pump",
         "create:fluid_tank"

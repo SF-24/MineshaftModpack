@@ -654,12 +654,14 @@
     "create:encased_chain_drive",
     "create:water_wheel",
     "create:belt_connector",
-    "create:sand_paper",
-    "create:red_sand_paper",
     
     // Fluids to reconsider
     "create:portable_fluid_interface", // Used to put and take out fluids from contraptions.
     "create:hose_pulley",
+
+    // Sand paper
+    "create:sand_paper",
+    "create:red_sand_paper",
 
     // Other to maybe reconsider, but less
     "create:portable_storage_interface",

@@ -27,12 +27,13 @@ StartupEvents.modifyCreativeTab("minecraft:colored_blocks", event => {
 // Redstone
 StartupEvents.modifyCreativeTab("minecraft:redstone_blocks", event => {
     event.remove("supplementaries:dispenser_minecart")
-    event.add([
+    event.addAfter("minecraft:hopper","create:chute")
+    event.addAfter("minecraft:lever","create:analog_lever")
+    event.addAfter("minecraft:comparator",[
         "create:pulse_extender",
         "create:pulse_repeater",
         "create:powered_latch",
         "create:powered_toggle_latch",
-        "create:analog_lever"
     ])
 })
 

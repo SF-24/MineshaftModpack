@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"elements": [
+		{
+			"name": "Core",
+			"from": [0, -0.05, 0],
+			"to": [16, 12, 16],
+			"color": 6,
+			"faces": {
+				"up": {"uv": [2, 2, 14, 14], "texture": "#missing"},
+				"down": {"uv": [2, 2, 14, 14], "texture": "#missing"}
+			}
+		}
+	]
+}
