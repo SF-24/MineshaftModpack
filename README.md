@@ -8,8 +8,29 @@ For servers (Experimental):
 
 ## Credits
 
-Credits:
-Fire drill texture is from Better Than Wolves, licensed under CC-BY-4.0
+Texture credits:
+<br>
+Create: World of Colour, licenced under MIT licence:
+- Millstone (parts)
+- Clutch (parts)
+- Wooden Bearing Side (casing)
+- Metal sheet shape
+<br>
+Better Than Wolves, licensed under CC-BY-4.0:
+- Fire striker
+- Millstone (parts)
+- Steel Ingot
+- Steel Nugget
+- Nether Ash
+- Hemp Fibres
+- Palette of Steel Sheets
+<br>
+Classic Alternative, texture use allowed as stated on Planetminecraft:
+- Blue dye
+- black dye, 
+- Acacia door
+<br>
+Spyglass from (forgot. have to check). If licence does not permit the use, it will be replaced.
 
 ## Mod List
 

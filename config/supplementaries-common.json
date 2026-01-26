@@ -62,7 +62,7 @@
       "block_side_attachment": true,
       "slide_on_fall": true,
       "rope_override": "supplementaries:rope",
-      "horizontal_ropes": true
+      "horizontal_ropes": false
     },
     "jar": {
       "enabled": false,
@@ -312,7 +312,7 @@
       "bypass_when_on": "MAIN_HAND"
     },
     "rope_arrow": {
-      "enabled": false,
+      "enabled": true,
       "capacity": 32,
       "exclusive_to_crossbows": false
     },

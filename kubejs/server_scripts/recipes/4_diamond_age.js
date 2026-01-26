@@ -1,3 +1,5 @@
+// priority: 2
+
 ServerEvents.recipes(event=>{
     event.shaped(
         Item.of("minecraft:recovery_compass"),
@@ -10,14 +12,6 @@ ServerEvents.recipes(event=>{
             D: "minecraft:diamond",
             C: "minecraft:compass"
         }
-    )
-
-    event.shapeless(
-        Item.of("elementary-staffs:grenade/fire", 8),
-        [
-            "4x minecraft:blaze_powder",
-            "minecraft:glass_bottle"
-        ]
     )
 
     event.shaped(

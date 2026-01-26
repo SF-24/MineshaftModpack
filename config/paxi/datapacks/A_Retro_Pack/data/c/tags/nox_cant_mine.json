@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#climbable",
+    "#pressure_plates",
+    "#rails",
+    "#replaceable_plants",
+    "#saplings",
+    "#signs",
+    "#minecraft:buttons",
+    "#c:chests",
+    "#c:barrels",
+    "minecraft:lever"
+  ]
+}

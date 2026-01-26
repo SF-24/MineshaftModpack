@@ -24,6 +24,9 @@ ServerEvents.recipes(event=>{
     event.remove({ output: "minecraft:detector_rail"})
 
     event.remove({ output: "supplementaries:cannonball"})
+    event.remove({ output: "supplementaries:rope"})
+
+    event.replaceInput({output: "create:goggles"},"minecraft:string","#modpack:bindings")
 
     // Remove dyes
     // event.replaceInput({input: Ingredient.all}, "minecraft:brown_dye", "minecraft:cocoa_beans")

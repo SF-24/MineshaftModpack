@@ -20,7 +20,11 @@ StartupEvents.modifyCreativeTab("elementary-staffs:staffs", event => {
 
 StartupEvents.modifyCreativeTab("kubejs:tab", event => {
     event.remove([
-        "kubejs:fire_drill"
+        "kubejs:fire_drill",
+        "kubejs:nether_ash",
+        "kubejs:hemp_fibres",
+        "kubejs:steel_ingot",
+        "kubejs:steel_sheet"
     ])
     event.setDisplayName("z")
 })

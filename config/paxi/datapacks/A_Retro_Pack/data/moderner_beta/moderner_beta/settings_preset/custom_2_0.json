@@ -790,7 +790,7 @@
       "oceanSlideTarget": -200.0,
       "centerIslandShape": "circle",
       "centerIslandRadius": 48,
-      "useIslands": true,
+      "useIslands": false,
       "useOuterIslands": true
     },
     "moderner_beta:deepslate_generation": {

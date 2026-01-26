@@ -27,9 +27,11 @@ StartupEvents.modifyCreativeTab("create:base", event => {
         "create:powered_toggle_latch",
         "create:analog_lever",
 
+        "create:redstone_contact",
         "create:chute",
-
         "create:controller_rail",
+        "create:minecart_coupling",
+        "create:cart_assembler",
 
         // Tools
         "create:goggles",
@@ -46,6 +48,7 @@ StartupEvents.modifyCreativeTab("create:base", event => {
         "create:schematic_table",
         "create:schematic",
         "create:empty_schematic",
+        "create:crafting_blueprint",
 
         "create:crushed_raw_copper",
         "create:crushed_raw_iron",
@@ -63,6 +66,7 @@ StartupEvents.modifyCreativeTab("create:base", event => {
         "create:vertical_gearbox",
         "create:clutch",
         "create:radial_chassis",
+        "create:linear_chassis",
 
         // Power sources
         "create:large_water_wheel",
@@ -72,11 +76,23 @@ StartupEvents.modifyCreativeTab("create:base", event => {
         // Power uses
         "create:encased_fan",
         "create:millstone",
+        "create:mechanical_press",
+        "create:mechanical_mixer",
+
+        "create:depot",
+        "create:basin",
 
         // Copper
         "create:fluid_pipe",
         "create:mechanical_pump",
-        "create:fluid_tank"
+        "create:fluid_tank",
+
+        "create:copper_backtank",
+        "create:copper_diving_helmet",
+        "create:copper_diving_boots",
+
+        // Food
+        "create:sweet_roll"
     ])
 })
 
@@ -91,8 +107,9 @@ StartupEvents.modifyCreativeTab("a_tab:rotary_power", event => {
         "create:gearbox",
         "create:vertical_gearbox",
         "create:clutch",
-        "create:radial_chassis",
-
+        "create:radial_chassis", // For making stuff like windmills without super glue
+        "create:linear_chassis",
+        
         // Power sources
         "create:hand_crank",
         "create:large_water_wheel",
@@ -102,11 +119,18 @@ StartupEvents.modifyCreativeTab("a_tab:rotary_power", event => {
         "create:encased_fan",
         "create:millstone",
         "create:mechanical_press",
+        "create:mechanical_mixer",
+
+        "create:depot",
+        "create:basin",
 
         // Copper / Fluid. Consider crafting methods.
         "create:fluid_pipe",
         "create:mechanical_pump",
-        "create:fluid_tank"
+        "create:fluid_tank",
+        "create:copper_backtank",
+        "create:copper_diving_helmet",
+        "create:copper_diving_boots"
     ])
 })
 

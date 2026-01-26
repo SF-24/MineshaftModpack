@@ -18,7 +18,7 @@
   "blacklisted_items": [
 
     // progression edits
-    "minecraft:wooden_pickaxe",
+    //"minecraft:wooden_pickaxe",
     "minecraft:wooden_hoe", 
 
     // misc
@@ -303,6 +303,13 @@
     "minecraft:raw_iron_block",
     "minecraft:raw_copper",
     "minecraft:raw_copper_block",
+    // "minecraft:copper_ingot",
+    "minecraft:copper_block",
+    "minecraft:weathered_copper",
+    "minecraft:exposed_copper",
+    "minecraft:oxidized_copper",
+    "!minecraft:.*waxed.*",
+    "minecraft:copper_ore",
     "minecraft:raw_gold",
     "minecraft:raw_gold_block",
     "!minecraft:.*cut_copper.*",
@@ -531,7 +538,7 @@
     "supplementaries:lunch_basket",
     "supplementaries:sack",
     "supplementaries:wrench",
-    "supplementaries:rope_arrow",
+    //"supplementaries:rope_arrow",
     "supplementaries:checker_block",
     "supplementaries:checker_slab",
     "!supplementaries:lapis_bricks.*",
@@ -554,7 +561,7 @@
     "supplementaries:fine_wood_stairs",
     "supplementaries:wicker_fence",
     "supplementaries:crystal_display",
-    "supplementaries:rope",
+    //"supplementaries:rope",
     "supplementaries:timber_frame",
     "supplementaries:timber_brace",
     "supplementaries:timber_cross_brace",
@@ -616,6 +623,8 @@
     "create:filter",
     "create:attribute_filter",
     "create:precision_mechanism",
+    "create:super_glue",
+    "!create:.*_toolbox",
 
     // Create items
     "create:andesite_alloy",
@@ -627,12 +636,27 @@
     "create:polished_rose_quartz",
     "create:electron_tube",
     "create:brass_hand",
+    "create:whisk",
+    "create:propeller",
+    "create:powdered_obsidian",
+    "create:unprocessed_obsidian_sheet",
+    // "create:copper_nugget",
+    // "create:copper_sheet",
+    // "create:crushed_raw_copper",
+    "create:sturdy_sheet",
+
+    "create:tree_fertilizer",
+
     "create:cinder_flour",
     "create:dough",
     "create:wheat_flour",
-    "create:whisk",
-    "create:propeller",
-    
+    "create:builders_tea",
+    "create:chocolate_bucket",
+    "create:chocolate_glazed_berries",
+    "create:bar_of_chocolate",
+    "create:honeyed_apple",
+    "create:honey_bucket",
+
     // Create contraptions
     "create:shaft",
     "create:cuckoo_clock",
@@ -646,22 +670,72 @@
     "create:nixie_tube",
     "create:display_link",
     "create:display_board",
-
+    "create:elevator_pulley",
+    "create:elevator_pulley",
+    "create:track_observer",
+    "create:content_observer",
+    "create:sticker",
+    "create:secondary_linear_chassis",
+    "create:sail_frame",
+    "create:contraption_controls",
+    "create:linked_controller",
+    "create:deployer",
+    "create:brass_funnel",
+    "create:andesite_funnel",
+    "create:crafter_slot_cover",
+    "create:mechanical_crafter",
+    "create:mechanical_arm",
+    "create:brass_tunnel",
+    "create:andesite_tunnel",
+    
     // To reconsider
     "create:gearshift",
     "create:sequenced_gearshift",
     "create:adjustable_chain_gearshift",
     "create:encased_chain_drive",
-    "create:water_wheel",
     "create:belt_connector",
+    "create:smart_chute",
+    "create:rotation_speed_controller",
+    "create:stockpile_switch", // Threshold switch
     
-    // Fluids to reconsider
+    "create:speedometer",
+    "create:stressometer",
+    "create:redstone_link",
+
+    "create:white_sail",
+
+    // Power sources and uses to reconsider
+    "create:water_wheel",
+
+    "create:weighted_ejector",
+    "create:crushing_wheel",
+    "create:clockwork_bearing",
+    "create:mechanical_drill",
+    "create:mechanical_saw",
+    "create:mechanical_plough",
+    "create:mechanical_harvester",
+    "create:mechanical_piston",
+    "create:sticky_mechanical_piston",
+    "create:piston_extension_pole",
+    "create:mechanical_bearing",
+    "create:rope_pulley",
+
+    // Fluids
     "create:portable_fluid_interface", // Used to put and take out fluids from contraptions.
     "create:hose_pulley",
+    "create:item_drain",
+    "create:spout",
+    "create:fluid_valve",
+    "create:steam_engine",
 
-    // Sand paper
-    "create:sand_paper",
-    "create:red_sand_paper",
+    // Rails
+    "create:railway_casing",
+    "create:track_station",
+    "create:track_signal",
+    "create:track",
+    "create:incomplete_track",
+    "create:schedule",
+    "create:controls",
 
     // Other to maybe reconsider, but less
     "create:portable_storage_interface",
@@ -677,11 +751,16 @@
     "create:blaze_cake",
     "create:creative_blaze_cake",
 
+    // Sand paper
+    "create:sand_paper",
+    "create:red_sand_paper",
+
     // Deco
     "!create:.*_seat",
     "create:placard",
 
     // Create metal stuff
+    "create:flywheel",
     "create:brass_casing",
     "create:copper_casing",
     "create:andesite_casing",
@@ -755,12 +834,16 @@
     "create:copper_ladder",
     "create:brass_ladder",
 
-    // ???
     "!create:.*granite.*",
     "!create:.*diorite.*",
     "!create:.*polished_andesite.*",
     "!create:.*andesite_pillar.*",
-    "!create:cut_andesite_brick.*"
+    "!create:.*cut_andesite.*",
+    "create:layered_andesite",
+    "!create:small_andesite_brick.*",
+
+    "create:copycat_step",
+    "create:copycat_panel"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

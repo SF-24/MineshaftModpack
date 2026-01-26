@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#wooden_doors",
+    "#wooden_trapdoors",
+    "#minecraft:crops",
+    "minecraft:torch",
+    "minecraft:lantern",
+    "#minecraft:sand",
+    "#minecraft:leaves",
+    "#minecraft:dirt",
+    "#c:gravel",
+    "#c:wooden_fence_gates"
+  ]
+}

@@ -35,6 +35,7 @@ StartupEvents.modifyCreativeTab("minecraft:redstone_blocks", event => {
         "create:powered_latch",
         "create:powered_toggle_latch",
     ])
+    event.addAfter("create:powered_latch","create:redstone_contact")
 })
 
 // Transportation
@@ -52,7 +53,7 @@ StartupEvents.modifyCreativeTab("minecraft:functional_blocks", event => {
         "supplementaries:notice_board"
     ])
     event.addAfter("minecraft:hopper_minecart", "supplementaries:dispenser_minecart")
-    event.addAfter("minecraft:activator_rail", "create:controller_rail")
+    event.addAfter("minecraft:activator_rail", ["create:controller_rail", "create:cart_assembler"])
     event.add("create:minecart_coupling")
 })
 
@@ -70,22 +71,30 @@ StartupEvents.modifyCreativeTab("minecraft:natural_blocks", event => {
     event.addAfter(
         "minecraft:gold_ingot",
         [
+            "kubejs:steel_ingot",
             "create:crushed_raw_iron",
             "create:crushed_raw_copper",
             "create:crushed_raw_gold",
             "create:iron_sheet",
             "create:copper_sheet",
             "create:golden_sheet",
+            "kubejs:steel_sheet",
             "minecraft:iron_nugget",
             "create:copper_nugget",
-            "minecraft:gold_nugget"
+            "minecraft:gold_nugget",
         ]
     )
+    event.add([
+        "kubejs:nether_ash",
+        "kubejs:hemp_fibres"
+    ])
 })
 
 // Foodstuff
 
-StartupEvents.modifyCreativeTab("minecraft:food_and_drinks", event => {})
+StartupEvents.modifyCreativeTab("minecraft:food_and_drinks", event => {
+    event.addBefore("supplementaries:pancake", "create:sweet_roll")
+})
 
 // Tools
 
@@ -137,7 +146,9 @@ StartupEvents.modifyCreativeTab("kubejs:creative_mode", event => {
 
         "custommachinery:configuration_card",
         "custommachinery:box_creator_item",
-        "custommachinery:structure_creator"
+        "custommachinery:structure_creator",
+
+        "create:crafting_blueprint"
     ])
 })
 

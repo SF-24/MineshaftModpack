@@ -1,0 +1,16 @@
+{
+  "item.create.sturdy_sheet": "Obsydianowy arkusz",
+  "item.create.iron_sheet": "Żelazny arkusz",
+  "item.create.golden_sheet": "Złoty arkusz",
+  "item.create.copper_sheet": "Miedziany arkusz",
+  "item.create.crushed_raw_copper": "Zmiażdżona ruda miedzi",
+  "item.create.crushed_raw_gold": "Zmiażdżona ruda złota",
+  "item.create.crushed_raw_iron": "Zmiażdżona ruda żelaza",
+  "block.create.cogwheel": "Koło zębate",
+  "block.create.large_cogwheel": "Wielkie koło zębate",
+  "block.create.andesite_encased_shaft": "Wał",
+  "block.create.oak_window_pane": "Szyba w drewnianym oknie",
+  "block.create.oak_window": "Drewniane okno",
+  "block.create.clutch": "Sprzęgło z czerwonego kamienia",
+  "block.create.large_water_wheel": "Koło wodne"
+}

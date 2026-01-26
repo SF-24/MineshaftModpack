@@ -1,7 +1,9 @@
 {
   "parent": "create:block/bearing/block",
   "textures": {
-    "back": "create:block/gearbox",
-    "side": "create:block/windmill_bearing_side"
+    "particle": "create:block/gearbox",
+    "0": "create:block/gearbox",
+    "1": "create:block/gearbox",
+    "2": "create:block/wooden_bearing_side"
   }
 }
